@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import car_parts_logo from '../../Assets/car_parts.png';
 
 const Navber = () => {
     return (
         <div className=' bg-green-500'> 
         <div className="navbar   rounded  container mx-auto ">
-            <div className="navbar-start">
-                <Link to="/" className="btn btn-ghost normal-case text-2xl font-bold text-fuchsia-700	">Car Parts Manufacturers </Link>
+             <div >
+                 <Link to="/" className="btn btn-ghost normal-case text-xl">
+                 <img src={car_parts_logo} alt="PrivateTutorlogo" className="rounded-xl h-14" /></Link>
             </div>
 
             <div className="navbar-center hidden lg:flex">
