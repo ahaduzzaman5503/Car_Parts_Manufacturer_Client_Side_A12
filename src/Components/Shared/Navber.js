@@ -22,7 +22,7 @@ const Navber = () => {
             <div className="navbar-end ">
                 <ul className="menu menu-horizontal p-0 text-lg font-bold  ">
                 <li><Link to="/login">login</Link></li>
-                 <li><span>||</span></li>
+                 <li><span>|</span></li>
                 <li><Link to="/register">Register</Link></li>
                 </ul>
             </div>
