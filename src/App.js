@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Register from './Components/Login/Register';
+import NotFound from './Components/NotFound/NotFound';
 import Blogs from './Components/Pages/Blogs';
 import MyPortfolio from './Components/Pages/MyPortfolio';
 import Purchase from './Components/Pages/Purchase';
@@ -21,6 +22,7 @@ function App() {
         <Route path='/my_portfolio' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
