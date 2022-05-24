@@ -3,14 +3,15 @@ import PartsShow from './PartsShow';
 
 const Parts = () => {
     const [carParts, setCarParts] = useState([]);
-
+ 
     useEffect(() => {
-        fetch('carParts.json')
+        fetch('http://localhost:5000/carParts')
         .then(res => res.json())
         .then(data=>setCarParts(data))
         
     },[])
-    return (
+
+      return (
         <div className="container mx-auto py-20">
             <div>
                 <h1 className='text-5xl text-center font-bold pb-10 text-primary ' >Our Car Parts</h1>

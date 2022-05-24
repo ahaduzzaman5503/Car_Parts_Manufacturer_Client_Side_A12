@@ -1,18 +1,14 @@
 import React from 'react';
-import {useNavigate} from "react-router-dom"
 
-const PartsShow = ({carPart}) => {
+const CarPartsInfo = () => {
     const {_id, name, price, short_description, image, Available_Quantity, Minimum_Order_Quantity} = carPart;
-   const navigate = useNavigate();
-
-    const purchaseHandler = (id) => {
-        navigate(`/carParts/${id}`);
-        
-    }
+    console.log(name)
     return (
-        <div className='grid lg:grid-cols-1 md:grid-cols-1 rounded-lg  px-10 bg-slate-50  border gap-2'>
+        <div>
+            <div className='grid lg:grid-cols-1 md:grid-cols-1 rounded-lg  px-10 bg-slate-50  border gap-2'>
              
              <div className='px-5   '>
+                 {_id}
                  <img src={image} className="max-w-sm rounded-lg shadow-xl shadow-xl h-56 w-52 mb-3" alt='img' />
              </div>
             <div className='p-3  '>
@@ -21,12 +17,11 @@ const PartsShow = ({carPart}) => {
                  <h1>Available Quantity: {Available_Quantity} </h1>
                 <h1 className='py-2'>Minimum Order Quantity: {Minimum_Order_Quantity} </h1>
                 <h1>Description: {short_description}</h1>
-                <button onClick={() => purchaseHandler(_id) } className="btn btn-success">Buy Now</button>
-
             </div>
              
+        </div>
         </div>
     );
 };
 
-export default PartsShow;
+export default CarPartsInfo;

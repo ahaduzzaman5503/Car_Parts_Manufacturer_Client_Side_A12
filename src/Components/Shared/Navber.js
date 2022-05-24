@@ -1,8 +1,17 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import car_parts_logo from '../../Assets/car_parts.png';
+import auth from '../../firebase.init';
 
 const Navber = () => {
+    const[user] = useAuthState(auth);
+    const logout = () => {
+        signOut(auth);
+    };
+
+    
     return (
         <div className=' bg-green-500'> 
         <div className="navbar   rounded  container mx-auto ">
@@ -21,8 +30,8 @@ const Navber = () => {
             </div>
             <div className="navbar-end ">
                 <ul className="menu menu-horizontal p-0 text-lg font-bold  ">
-                <li><Link to="/login">login</Link></li>
-                 <li><span>|</span></li>
+                    <li>{user ? <a className="btn btn-ghost normal-case text-xl" onClick={logout}>Sign Out</a> : <Link to="/login">login</Link>}</li>
+                    <li><span>|</span></li>
                 <li><Link to="/register">Register</Link></li>
                 </ul>
             </div>
