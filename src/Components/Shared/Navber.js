@@ -26,6 +26,9 @@ const Navber = () => {
                 <li><Link to="/purchase">Purchase</Link></li>
                 <li><Link to="/blogs">Blogs</Link></li>
                 <li><Link to="/my_portfolio">My Portfolio</Link></li>
+                {
+                    user && <li><Link to="dashboard">Dashboard</Link></li>
+                }
                 </ul>
             </div>
             <div className="navbar-end ">

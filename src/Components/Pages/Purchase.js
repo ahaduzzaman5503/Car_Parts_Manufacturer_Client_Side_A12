@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import PurchaseShow from './PurchaseShow';
 
 const Purchase = () => {
-    return (
-        <div className='flex justify-around container mx-auto gap-10 p-5'>
-            <div className='bg-green-300 border-4 w-1/2 p-5'>
-                <h1>Here show image</h1>
-                <h1>Parts Name:</h1>
-                <h1>Parts Price:</h1>
-                <h1>Available Quantity:</h1>
+    const [carPhrchase, setCarPhrcase] = useState([]);
 
-                
+    useEffect(() => {
+        fetch('http://localhost:5000/carParts')
+        .then(res => res.json())
+        .then(data=>setCarPhrcase(data))
+    },[])
+    return (
+        <div className='flex justify-around container mx-auto gap-5 p-5'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1   bg-base-300 border-4 w-3/4 p-5'>
+                {
+                    carPhrchase.map( pharchaseData => <PurchaseShow
+                        key={PurchaseShow._id}
+                        pharchaseData={pharchaseData}
+                    ></PurchaseShow>)
+                }         
             </div>
-            <div className='bg-blue-300 border-4 w-1/2 p-5'>
+            <div className='bg-blue-300 border-4 w-2/4 p-5'>
                <div>
                <div className="form-control w-full max-w-xs">
                 <label className="label">
