@@ -5,7 +5,7 @@ import slide3 from '../../Assets/slide3.png';
 
 const Banner = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto mt-20'>
             <div className="carousel w-full">
                 <div id="item1" className="carousel-item w-full">
                     <img src={slide3} alt='slide1' className="w-full" />

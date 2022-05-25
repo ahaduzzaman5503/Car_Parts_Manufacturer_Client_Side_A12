@@ -4,6 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import car_parts_logo from '../../Assets/car_parts.png';
 import auth from '../../firebase.init';
+import "./Nevber.css";
 
 const Navber = () => {
     const[user] = useAuthState(auth);
@@ -13,11 +14,11 @@ const Navber = () => {
 
     
     return (
-        <div className=' bg-green-500'> 
-        <div className="navbar   rounded  container mx-auto ">
+        <div className=' bg-green-500 navbar'> 
+        <div className="navbar rounded  container mx-auto ">
              <div >
                  <Link to="/" className="btn btn-ghost normal-case text-xl">
-                 <img src={car_parts_logo} alt="PrivateTutorlogo" className="rounded-xl h-14" /></Link>
+                 <img src={car_parts_logo} alt="PrivateTutorlogo" className="rounded-xl h-12 " /></Link>
             </div>
 
             <div className="navbar-center hidden lg:flex">
