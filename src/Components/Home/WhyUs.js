@@ -32,9 +32,10 @@ const WhyUs = () => {
         </div>
             <div className='grid grid-cols-2 border-2 p-5 shadow-lg rounded items-center '>
             <div>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
+            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-headset h-20 w-20 text-success" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+            </svg>
+           
             </div>
             <div>
                 <h2 className='font-bold text-2xl'>Online Support</h2>

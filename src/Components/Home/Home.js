@@ -15,8 +15,7 @@ const Home = () => {
             <BusinessSummary></BusinessSummary>
             <Discount></Discount>
             <WhyUs></WhyUs>
-            
-        </div>
+            </div>
     );
 };
 

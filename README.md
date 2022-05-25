@@ -4,14 +4,6 @@
 # Live Website Link : https://playful-gelato-b04eed.netlify.app/
 ***
 
-## This web site furtures:
-***
-*  
-*  
-*  
-*  
-*  
-
 ## Technologies and Framework List:
 ***
 A list of technologies which used within this project:
@@ -24,6 +16,17 @@ A list of technologies which used within this project:
 * [React Router](https://example.com)[]
 * [react-hook-form](https://react-hook-form.com/)["^7.31.2"]
 * [react-firebase-hooks](https://github.com/CSFrequency/react-firebase-hooks)["^5.0.3"]
+
+
+## This web site furtures:
+***
+*  This Website about car parts.
+*  Onybody can pharchecs car parts.
+*  There has hug car parts.
+*  You can manage and track your order.
+*  You can choose you best car parts.
+
+
 
  
 
