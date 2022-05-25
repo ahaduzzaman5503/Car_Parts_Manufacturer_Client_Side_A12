@@ -11,8 +11,8 @@ const Home = () => {
         <div className='container mx-auto'>
             <Banner></Banner>
             <Parts></Parts>
-            <BusinessSummary></BusinessSummary>
             <Review></Review>
+            <BusinessSummary></BusinessSummary>
             <Discount></Discount>
             <WhyUs></WhyUs>
             

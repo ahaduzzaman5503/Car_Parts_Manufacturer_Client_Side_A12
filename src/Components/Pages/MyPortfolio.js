@@ -3,7 +3,7 @@ import Ahaduzzaman from "../../Assets/Ahaduzzaman.jpg";
 
 const MyPortfolio = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto mt-20'>
         <div className='container mx-auto flex justify-evenly py-10 bg-green-100'>
            <div className='py-5'>
                 <img className="mask mask-squircle w-80 h-80" src={Ahaduzzaman} alt={Ahaduzzaman} />

@@ -10,7 +10,7 @@ const Purchase = () => {
         .then(data=>setCarPhrcase(data))
     },[])
     return (
-        <div className='flex justify-around container mx-auto gap-5 p-5'>
+        <div className='flex justify-around container mx-auto gap-5 p-5 mt-20'>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1   bg-base-300 border-4 w-3/4 p-5'>
                 {
                     carPhrchase.map( pharchaseData => <PurchaseShow
