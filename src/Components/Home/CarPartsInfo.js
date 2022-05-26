@@ -14,8 +14,8 @@ const CarPartsInfo = () => {
             <div className='p-3  '>
                 <h1 className='text-xl font-bold text-blue-400'>{name}</h1>
                 <h1 className='text-xl font-bold text-success'>Price: ${price} per unit</h1>
-                 <h1>Available Quantity: {Available_Quantity} </h1>
-                <h1 className='py-2'>Minimum Order Quantity: {Minimum_Order_Quantity} </h1>
+                 <h1>Available: {Available_Quantity} </h1>
+                <h1 className='py-2'>Minimum Order: {Minimum_Order_Quantity} </h1>
                 <h1>Description: {short_description}</h1>
             </div>
              

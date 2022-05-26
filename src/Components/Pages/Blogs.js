@@ -4,11 +4,11 @@ const Blogs = () => {
     return (
         <div className='bg-blue-100'>
             <div className='container mx-auto py-7 mt-10'>
-                    <div tabindex="0" class="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
-            <div class="collapse-title text-xl font-medium">
+                    <div tabindex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
+            <div className="collapse-title text-xl font-medium">
             How will you improve the performance of a React Application?
             </div>
-            <div class="collapse-content"> 
+            <div className="collapse-content"> 
                 <p>Optimizing application performance is key for developers.
                 Optimizing performance is an important technique to consider before shipping a React application. 
 
@@ -24,11 +24,11 @@ const Blogs = () => {
         </div>
 
         <div className='container mx-auto py-10'>
-          <div tabindex="0" class="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
-            <div class="collapse-title text-xl font-medium">
+          <div tabindex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
+            <div className="collapse-title text-xl font-medium">
             What are the different ways to manage a state in a React application?
             </div>
-            <div class="collapse-content"> 
+            <div className="collapse-content"> 
                 <p>There are four main types of state you need to properly manage in your React apps:
                     1: Local state
                     2: Global state
@@ -55,11 +55,11 @@ const Blogs = () => {
             </div>
         </div>
             <div className='container mx-auto py-10'>
-              <div tabindex="0" class="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
-            <div class="collapse-title text-xl font-medium">
+              <div tabindex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
+            <div className="collapse-title text-xl font-medium">
             How does prototypical inheritance work?
             </div>
-            <div class="collapse-content"> 
+            <div className="collapse-content"> 
                 <p>The Prototypal Inheritance is a feature in javascript used to add methods and properties to objects. 
                 Every object with its methods and properties contains an internal and hidden property known as [[Prototype]]. It is a method by which an object can inherit the properties and methods of another object.
 
@@ -76,11 +76,11 @@ const Blogs = () => {
         </div>
 
             <div className='container mx-auto py-10'>
-             <div tabindex="0" class="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
-            <div class="collapse-title text-xl font-medium">
+             <div tabindex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
+            <div className="collapse-title text-xl font-medium">
             You have an array of products. Each product has a name, price, description, etc. How will you implement a search to find products by name?
             </div>
-            <div class="collapse-content"> 
+            <div className="collapse-content"> 
                 <p>I will Destructuring by Props those data. Destructuring is a simple property that is used to make code much clear and readable, mainly when we pass props in React.
                 Destructuring is a characteristic of JavaScript, It is used to take out sections of data from an array of objects, We can assign them to our new own variables created by the developer.
 
@@ -91,11 +91,11 @@ const Blogs = () => {
         </div>
                     
     <div className='container mx-auto py-10'>
-        <div tabindex="0" class="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
-            <div class="collapse-title text-xl font-medium">
+        <div tabindex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box"> 
+            <div className="collapse-title text-xl font-medium">
             What is a unit test? Why should write unit tests?
             </div>
-            <div class="collapse-content"> 
+            <div className="collapse-content"> 
                 <p>Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. This testing methodology is done during the development process by the software developers and sometimes QA staff.  The main objective of unit testing is to isolate written code to test and determine if it works as intended.
                 Unit Testing is important because software developers sometimes try to save time doing minimal unit testing and this is a myth because inappropriate unit testing leads to high-cost Defect fixing during System Testing, Integration Testing and even Beta Testing after the application is built. If proper unit testing is done in early development, then it saves time and money in the end.
 

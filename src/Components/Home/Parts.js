@@ -17,7 +17,7 @@ const Parts = () => {
                 <h1 className='text-5xl text-center font-bold pb-10 text-primary ' >Our Car Parts</h1>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-10 md:grid-cols-2'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-14 md:grid-cols-2'>
                 {
                     carParts.map(carPart=> <PartsShow
                       key={carPart._id}

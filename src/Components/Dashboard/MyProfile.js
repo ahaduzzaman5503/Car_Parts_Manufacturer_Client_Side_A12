@@ -17,8 +17,8 @@ const MyPortfolio = () => {
 
            <div className='flex justify-around'>
                <div className='my-10'>
-               <div class="avatar">
-                <div class="w-48 mb-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+               <div className="avatar">
+                <div className="w-48 mb-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src={Ahaduzzaman} alt={Ahaduzzaman} />
                 </div>
                 </div>
