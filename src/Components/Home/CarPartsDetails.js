@@ -27,7 +27,7 @@ const CarPartsDetails = ( ) => {
         };
         console.log(partsDetails.name, user.displayName, user.email )
 
-        fetch('http://localhost:5000/order', {
+        fetch('https://evening-depths-43377.herokuapp.com/carParts/order', {
           method: 'POST',
           headers:{
             'content-type' : 'application/json'
