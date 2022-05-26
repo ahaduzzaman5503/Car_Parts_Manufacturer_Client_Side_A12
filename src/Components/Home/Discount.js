@@ -8,7 +8,7 @@ const Discount = () => {
                 <h1 className='text-5xl font-bold text-yellow-500 '>Running Discount Parts!</h1>
             </div>
 
-            <div className='grid grid-cols-2 py-5 flex justify-around'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 py-5 flex justify-around'>
             <div> 
             <img src={DiscountImg} alt="Discount wheel" className="rounded-xl h-56 " />
             </div>

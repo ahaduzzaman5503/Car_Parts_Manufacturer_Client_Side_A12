@@ -2,14 +2,17 @@ import React from 'react';
 
 const BusinessSummary = () => {
     return (
+        <div>
+            
         <div className='container mx-auto py-15'>
             <div className='text-center py-10'>
                 <h1 className='text-5xl font-bold text-green-500'>MILLIONS BUSINESS TRUST US</h1>
                 <h1 className='text-3xl font-bold py-3'>We served Millions of Customers</h1>
             </div>
+            <div className=''>
             <div>
 
-            <div className="stats shadow container mx-auto grid gap-5 py-5">
+            <div className="stats shadow grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 py-5">
   
                 <div className="stat shadow-xl rounded-md border-green-500 ">
                 
@@ -68,6 +71,9 @@ const BusinessSummary = () => {
                 </div>
                 </div>
             </div>
+                    
+        </div>
+        </div>
         </div>
     );
 };

@@ -6,7 +6,7 @@ const WhyUs = () => {
             <div className='container mx-auto text-center mt-20'>
                 <h1 className='text-5xl font-bold text-blue-500'>Why Chooce Us</h1>
             </div>
-        <div className='grid grid-cols-3 gap-5 py-20 '>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 py-20 '>
             <div className='grid grid-cols-2 border-2 p-5 shadow-lg rounded items-center'>
             <div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
